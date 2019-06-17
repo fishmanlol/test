@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		105D6D5122B70EF200B34CA3 /* PortalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105D6D4F22B70EF200B34CA3 /* PortalViewController.swift */; };
+		105D6D5222B70EF200B34CA3 /* PortalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 105D6D5022B70EF200B34CA3 /* PortalViewController.xib */; };
+		105D6D5422B7138200B34CA3 /* SafariManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105D6D5322B7138200B34CA3 /* SafariManager.swift */; };
 		108ECF0722B6FFF800A6A32A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108ECF0622B6FFF800A6A32A /* AppDelegate.swift */; };
 		108ECF0922B6FFF800A6A32A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108ECF0822B6FFF800A6A32A /* ViewController.swift */; };
 		108ECF0C22B6FFF800A6A32A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 108ECF0A22B6FFF800A6A32A /* Main.storyboard */; };
 		108ECF0E22B6FFFA00A6A32A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 108ECF0D22B6FFFA00A6A32A /* Assets.xcassets */; };
 		108ECF1122B6FFFA00A6A32A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 108ECF0F22B6FFFA00A6A32A /* LaunchScreen.storyboard */; };
+		FEA55FAAD2F90B3B06F3178F /* Pods_AiTmedPortal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D51CA3618C6A5CBB99DD92C0 /* Pods_AiTmedPortal.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		105D6D4F22B70EF200B34CA3 /* PortalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortalViewController.swift; sourceTree = "<group>"; };
+		105D6D5022B70EF200B34CA3 /* PortalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PortalViewController.xib; sourceTree = "<group>"; };
+		105D6D5322B7138200B34CA3 /* SafariManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariManager.swift; sourceTree = "<group>"; };
 		108ECF0322B6FFF800A6A32A /* AiTmedPortal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AiTmedPortal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		108ECF0622B6FFF800A6A32A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		108ECF0822B6FFF800A6A32A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,9 @@
 		108ECF0D22B6FFFA00A6A32A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		108ECF1022B6FFFA00A6A32A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		108ECF1222B6FFFA00A6A32A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA5161321A9924E6BC1C89A6 /* Pods-AiTmedPortal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AiTmedPortal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AiTmedPortal/Pods-AiTmedPortal.debug.xcconfig"; sourceTree = "<group>"; };
+		D51CA3618C6A5CBB99DD92C0 /* Pods_AiTmedPortal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AiTmedPortal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5F3551BD888764FCE052283 /* Pods-AiTmedPortal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AiTmedPortal.release.xcconfig"; path = "Pods/Target Support Files/Pods-AiTmedPortal/Pods-AiTmedPortal.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEA55FAAD2F90B3B06F3178F /* Pods_AiTmedPortal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +51,8 @@
 			children = (
 				108ECF0522B6FFF800A6A32A /* AiTmedPortal */,
 				108ECF0422B6FFF800A6A32A /* Products */,
+				CF84D966F69D3B945926551F /* Pods */,
+				BB3A7B99CD1693229D63C9EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +69,32 @@
 			children = (
 				108ECF0622B6FFF800A6A32A /* AppDelegate.swift */,
 				108ECF0822B6FFF800A6A32A /* ViewController.swift */,
+				105D6D5322B7138200B34CA3 /* SafariManager.swift */,
+				105D6D4F22B70EF200B34CA3 /* PortalViewController.swift */,
+				105D6D5022B70EF200B34CA3 /* PortalViewController.xib */,
 				108ECF0A22B6FFF800A6A32A /* Main.storyboard */,
 				108ECF0D22B6FFFA00A6A32A /* Assets.xcassets */,
 				108ECF0F22B6FFFA00A6A32A /* LaunchScreen.storyboard */,
 				108ECF1222B6FFFA00A6A32A /* Info.plist */,
 			);
 			path = AiTmedPortal;
+			sourceTree = "<group>";
+		};
+		BB3A7B99CD1693229D63C9EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D51CA3618C6A5CBB99DD92C0 /* Pods_AiTmedPortal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF84D966F69D3B945926551F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA5161321A9924E6BC1C89A6 /* Pods-AiTmedPortal.debug.xcconfig */,
+				D5F3551BD888764FCE052283 /* Pods-AiTmedPortal.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 108ECF1522B6FFFA00A6A32A /* Build configuration list for PBXNativeTarget "AiTmedPortal" */;
 			buildPhases = (
+				9938120F8218B95A59D2B7EA /* [CP] Check Pods Manifest.lock */,
 				108ECEFF22B6FFF800A6A32A /* Sources */,
 				108ECF0022B6FFF800A6A32A /* Frameworks */,
 				108ECF0122B6FFF800A6A32A /* Resources */,
+				1CAAC76E717ACAA97951C78F /* [CP] Embed Pods Frameworks */,
+				02DC8D506C058EBE6B76EABC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,19 +160,88 @@
 			files = (
 				108ECF1122B6FFFA00A6A32A /* LaunchScreen.storyboard in Resources */,
 				108ECF0E22B6FFFA00A6A32A /* Assets.xcassets in Resources */,
+				105D6D5222B70EF200B34CA3 /* PortalViewController.xib in Resources */,
 				108ECF0C22B6FFF800A6A32A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02DC8D506C058EBE6B76EABC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AiTmedPortal/Pods-AiTmedPortal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1CAAC76E717ACAA97951C78F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AiTmedPortal/Pods-AiTmedPortal-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AiTmedPortal/Pods-AiTmedPortal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9938120F8218B95A59D2B7EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AiTmedPortal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		108ECEFF22B6FFF800A6A32A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				105D6D5122B70EF200B34CA3 /* PortalViewController.swift in Sources */,
 				108ECF0922B6FFF800A6A32A /* ViewController.swift in Sources */,
 				108ECF0722B6FFF800A6A32A /* AppDelegate.swift in Sources */,
+				105D6D5422B7138200B34CA3 /* SafariManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +385,7 @@
 		};
 		108ECF1622B6FFFA00A6A32A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA5161321A9924E6BC1C89A6 /* Pods-AiTmedPortal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +404,7 @@
 		};
 		108ECF1722B6FFFA00A6A32A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5F3551BD888764FCE052283 /* Pods-AiTmedPortal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
